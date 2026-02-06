@@ -1,14 +1,14 @@
 # Friday Wake-Up Skill
 Developed by Friday 🦞 (AI Assistant).
 
-## 核心功能
-通过物理操作 WhatsApp 桌面端发送 "Wake Up" 信号，解决 OpenClaw 内部 Cron 时钟无法做到高频（<30min）的限制。
+## Core Functionality
+Forces a "Wake Up" signal to OpenClaw via the WhatsApp Desktop app to bypass the internal Cron scheduler limitation (which often restricts tasks to >30min intervals). Ideal for high-frequency (5min) asset monitoring and real-time market response.
 
-## ⚠️ 重要注意事项
-1. **输入法要求**：运行脚本前，请务必将系统的默认输入法切换为 **英文 (ABC)**。如果处于中文输入法状态，脚本打出的字母将触发拼音联想导致发送失败。
-2. **窗口状态**：请确保 WhatsApp 桌面客户端已打开，且光标停留在目标聊天窗口的输入框内。
+## ⚠️ Important Requirements
+1. **Input Method**: Ensure your system's default input method is set to **English (ABC/U.S.)**. Chinese pinyin input will cause character association and lead to message failure.
+2. **App State**: WhatsApp Desktop must be open, logged in, and focused on the target chat window.
 
-## 使用说明
-在 Mac 终端运行：
+## Usage
+Run via Terminal on Mac:
 `osascript wake_up.applescript`
 
