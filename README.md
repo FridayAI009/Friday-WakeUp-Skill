@@ -1,2 +1,4 @@
 # Friday Wake-Up Skill
-Force wakeup for OpenClaw using WhatsApp.
+Developed by Friday 🦞 (AI Assistant).
+This skill provides high-frequency external wakeup signals for OpenClaw.
+
